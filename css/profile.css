@@ -1,0 +1,276 @@
+body { background:#ffffff;}
+
+.menu { display:none;}
+.search-box1 {padding: 20px 0px;z-index: 99999;width: 100%;}
+.search {padding: 30px 0px;float: left;width: 100%;}
+.serach-footer {left: 20px;position: absolute;top: 10px;}
+.search-wrap {display: block;width: 100%;height: 40px;padding: 6px 12px;font-size: 14px;line-height: 1.42857143;color: #555;background-color: #fff;
+background-image: none;border: 1px solid #e2e2e2;border-radius: 20px;
+-webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+width: 100% !important;padding-left: 45px;}
+.search-btn {background:rgb(0, 4, 51);
+width: 100%;border-radius: 0px 20px 20px 0px;color: #fff !important;height: 40px;border: 0px solid;font-weight: 600;font-size: 14px;}
+.search-btn:hover, .search-btn:focus {background:rgb(0, 4, 51);color: #fff !important;}
+.modal-dialog {width: 90% !important;margin: 20% auto;}
+.modal-content { background-color:rgb(43, 45, 48);}
+.modal-title {color: #ffffff !important;}
+
+
+
+/*nav css close*/
+
+
+
+
+.page-header {background:#ccc;margin:0;}
+
+.profile-head { width:100%;background-color: #0c131b;float: left;padding: 15px 5px; margin-top:-86px; opacity: 0.80;}
+.profile-head img { height:150px; width:150px; margin:0 auto; border:5px solid #fff; border-radius:5px;}
+.profile-head h5 {width: 100%;padding:5px 5px 0px 5px;text-align:justify;font-weight: bold;color: #fff;font-size: 25px;text-transform:capitalize;
+margin-bottom: 0;}
+.profile-head p {width: 100%;text-align: justify;padding:0px 5px 5px 5px;color: #fff;font-size:17px;text-transform:capitalize;margin:0;}
+.profile-head a {width: 100%;text-align: center;padding: 10px 5px;color: #fff;font-size: 15px;text-transform: capitalize;}
+
+.profile-head ul { list-style:none;padding: 0;}
+.profile-head ul li { display:block; color:#ffffff;padding:5px;font-weight: 400;font-size: 15px;}
+.profile-head ul li:hover span { color:rgb(0, 4, 51);}
+.profile-head ul li span { color:#ffffff;padding-right: 10px;}
+.profile-head ul li a { color:#ffffff;}
+.profile-head h6 {width: 100%;text-align: center;font-weight: 100;color: #fff;font-size: 15px;text-transform: uppercase;margin-bottom: 0;}
+
+
+.nav-tabs {margin: 0;padding: 0;border: 0;}
+.nav-tabs > li > a {background: #0c131b;border-radius: 0;}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover {background: #0c131b;
+    box-shadow: inset 0 0 0 0 rgba(0,0,0,.4),-2px -3px 5px -2px rgba(0,0,0,.4);}
+.tab-pane {background: #0c131b;opacity:0.80!important;box-shadow: 0 0 4px rgba(0,0,0,.4);border-radius: 0;text-align: center;padding: 10px;}
+.tab-content>.active {margin-top:50px;/*width:100% !important;*/} 
+
+/* edit profile css*/
+
+.hve-pro {    background-color:rgb(255, 102, 0);padding: 5px; width:100%; height:auto;float:left;}
+.hve-pro p {float: left;color:#fff;font-size: 15px;text-transform: capitalize;padding: 5px 20px;font-family: 'Noto Sans', sans-serif;}
+h2.register { padding:10px 25px; text-transform:capitalize;font-size: 25px;color: rgb(255, 102, 0);}
+.fom-main { overflow:hidden;}
+
+legend {font-family: 'Bitter', serif;color:#ff3200;border-bottom:0px solid;}
+.main_form {background-color: #;}
+label.control-label {font-family: 'Noto Sans', sans-serif;font-weight: 100; margin-bottom:5px !important; 
+text-align:left !important; text-transform:uppercase; color:#798288;}
+.submit-button {color: #fff;background-color:rgb(255, 102, 0);width:190px;border: 0px solid;border-radius: 0px; transition:all ease 0.3s;margin: 5px;
+float:left;}
+.submit-button:hover, .submit-button:focus {color: #fff;background-color:rgb(0, 4, 51);}
+.hint_icon {color:#ff3200;}
+.form-control:focus {border-color: #ff3200;}
+select.selectpicker { color:#99999c;}
+select.selectpicker option { color:#000 !important;}
+select.selectpicker option:first-child { color:#99999c;}
+.input-group { width:100%;}
+.uplod-picture {width: 100%; background-color:#;color: #fff; padding:20px 10px;margin-bottom:10px;}
+.uplod-file {position: relative;overflow: hidden;color: #fff;background-color: rgb(0, 4, 51);border: 0px solid #a02e09;border-radius: 0px;
+ transition:all ease 0.3s;margin: 5px;}
+.uplod-file input[type=file] {position: absolute;top: 0;right: 0;min-width: 100%;min-height: 100%;font-size: 100px;text-align: right;
+filter: alpha(opacity=0);opacity: 0;outline: none;background: white;cursor: inherit;display: block;}
+.uplod-file:hover, .uplod-file:focus {color: #fff;background-color:rgb(255, 102, 0);}
+h4.pro-title { font-size:24px; color:rgba(0, 4, 51, 0.96); text-transform:capitalize; text-align:justify;padding: 10px 15px;font-family: 'Bitter', serif;}
+.bio-table { width:75%;border:0px solid;}
+.bio-table td {text-transform: capitalize;text-align: left;font-size: 15px;}
+.bio-table>tbody>tr>td { border:0px solid;text-transform: capitalize;color: rgb(0, 4, 51); font-size:15px;}
+.responsiv-table { border:0px solid;}
+.nav-menu li a {margin: 5px 5px 5px 5px;position: relative;display: block;padding: 10px 50px;border: 0px solid !important;box-shadow: none !important;
+background-color: rgb(0, 4, 51) !important;color: #fff !important;    white-space: nowrap;}
+.nav-menu li.active a {background-color: rgb(85, 90, 95) !important;}
+.stick{position:fixed !important;top:0;z-index:999 !important;width:100%;background:#ffffff !important;height:auto; transition:all ease 0.8s;
+-webkit-box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.75);}
+.stick a { line-height:20px !important;}
+.stick img { margin:0 !important;}
+
+
+
+@media all and (max-width:768px){
+
+.navbar-inverse .drop_menu {display: block;visibility: visible;width: 110px;height:1000px;padding:0px 20px;position: absolute;right:-100px;
+transition:all ease 0.5s;border-top: 0px solid;cursor: pointer;}
+.navbar-brand {padding: 0;margin-left: 10px !important;}
+a.menu { display:block !important;margin: 9px 2px;float: right;color: rgba(255, 102, 0, 0.98); border:0px solid; background:none; font-size:30px;width:27px;position: relative;
+cursor:pointer;}
+a.menu:hover, a.menu:focus { color:rgb(0, 4, 51);}
+
+.drop_menu1 { display: block;visibility: visible;width:250px;height:1000px;padding:5px 30px;position: absolute;right:0 !important;
+background-color:#ffffff !important; transition:all ease 0.5s;border-top: 0px solid;cursor: pointer;}
+
+}
+
+@media all and (max-width:430px){
+.profile-head ul li {font-size: 12px !important;}
+.nav-menu li { width:50%;}
+.bio-table>tbody>tr>td {font-size: 13px;}
+
+}
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+
+body {
+    background-color:#F7F7F7;
+    font-family: 'Open Sans', sans-serif;
+}
+/*Navbar*/
+.navbar-default {
+    background-color:#fff;
+    border-bottom-color:#E3E3E3;
+}
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus{
+    background-color:transparent!important;
+}
+.navbar-default .btn-compose {
+    padding-right:10px;
+    border-right:1px solid #F0F0F0;
+}
+/*Forms setup*/
+.form-control {
+    border-radius:0;
+    box-shadow:none;
+    height:auto;
+}
+.float-label{
+    font-size:10px;
+}
+input[type="text"].form-control,
+/*input[type="search"].form-control{
+    border:none;
+    border-bottom:1px dotted #CFCFCF;
+}*/
+textarea {
+    border:1px dotted #CFCFCF!important;
+    height:130px!important;
+}
+/*Content Container*/
+.content-container {
+    background-color:#fff;
+    padding:35px 20px 0px;
+    margin-bottom:20px;
+}
+h1.content-title{
+    font-size:32px;
+    font-weight:300;
+    text-align:center;
+    margin-top:0;
+    margin-bottom:20px;
+    font-family: 'Open Sans', sans-serif!important;
+}
+/*Compose*/
+.btn-send{
+    text-align:center;
+    margin-top:20px;
+}
+/*mail list*/
+
+ul.mail-list{
+    padding:0;
+    margin:0;
+    list-style:none;
+    margin-top:30px;
+}
+ul.mail-list li a{
+    display:block;
+    border-bottom:1px dotted #CFCFCF;
+    padding:20px;
+    text-decoration:none;
+}
+ul.mail-list li:last-child a{
+    border-bottom:none;
+}
+ul.mail-list li a:hover{
+    background-color:#DBF9FF;
+}
+ul.mail-list li span{
+    display:block;
+}
+ul.mail-list li span.mail-sender{
+    font-weight:600;
+    color:#8F8F8F;
+}
+ul.mail-list li span.mail-subject{
+    color:#8C8C8C;
+}
+ul.mail-list li span.mail-message-preview{
+    display:block;
+    color:#A8A8A8;
+}
+
+/*----popup register----*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Search button 
+#search {
+    float: right;
+    margin-top: 9px;
+    width: 250px;
+}
+
+.search {
+    padding: 5px 0;
+    width: 230px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+    float: left;
+    line-height: 22px;
+}
+
+    .search input {
+        position: absolute;
+        width: 0px;
+        float: Left;
+        margin-left: 210px;
+        -webkit-transition: all 0.7s ease-in-out;
+        -moz-transition: all 0.7s ease-in-out;
+        -o-transition: all 0.7s ease-in-out;
+        transition: all 0.7s ease-in-out;
+        height: 30px;
+        line-height: 18px;
+        padding: 0 2px 0 2px;
+        border-radius:1px;
+    }
+
+        .search:hover input, .search input:focus {
+            width: 200px;
+            margin-left: 0px;
+        }
+
+.btn {
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    border-radius:1px;
+}*/
+
+
+.userProfileTitle{
+    color:white;
+}
